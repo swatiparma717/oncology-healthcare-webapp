@@ -19,7 +19,7 @@ import numpy as np
 
 app = flask.Flask(__name__,template_folder='templates')
 
-model = load_model(r"C:\Users\91810\OneDrive\Documents\webapp\model\Tumor_Classifier_Model_13_94_acc.h5")
+model = load_model("oncology-healthcare-webapp/model/Tumor_Classifier_Model_13_94_acc.h5")
 
 
 
